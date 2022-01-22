@@ -24,3 +24,10 @@ body{
     border-radius: 40px;
     color: white;
 }
+
+#displayLeads{
+    /* border: 2px solid black; */
+    width: 450px;
+    height: 550px;
+    margin-top: 10px;
+}
