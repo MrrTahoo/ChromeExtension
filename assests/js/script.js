@@ -12,6 +12,9 @@ inputBtn.addEventListener("click", function () {
 
 function renderLeads() {
     leads.forEach(element => {
-        displayleads.innerHTML += "<li><a target='_blank' href='" + leads + "'>" + leads + "</a></li>"
+        displayleads.innerHTML += `<li>
+                                        <a target='_blank' href='${leads}'>
+                                        ${leads}</a>
+                                    </li>`
     });
 }
